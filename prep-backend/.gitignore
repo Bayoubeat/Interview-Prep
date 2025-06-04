@@ -1,0 +1,83 @@
+####################################
+# Node.js / React / Frontend
+####################################
+# Dependency directories
+node_modules
+
+# Build output
+dist
+dist-ssr
+build
+out
+.next
+coverage
+.nyc_output
+
+# Local env files
+.env
+.env.*
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+####################################
+# Java / Maven
+####################################
+target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+HELP.md
+!.mvn/wrapper/maven-wrapper.jar
+
+####################################
+# Editors / IDEs
+####################################
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+
+# IntelliJ IDEA
+.idea
+*.iws
+*.iml
+*.ipr
+
+# STS
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+####################################
+# macOS system files
+####################################
+.DS_Store
+.AppleDouble
+.LSOverride
+.Trashes
+
+####################################
+# Other temporary / backup files
+####################################
+*.sw?
+*.swp
+*.swo
+*.bak
+*.tmp
+*.orig
